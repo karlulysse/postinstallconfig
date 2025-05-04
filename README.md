@@ -30,104 +30,104 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-In this lab, we will be creating tickets as end users
-Observing all the ticket properties and responding to them as help desk professionals.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acknowledge Agent Panel vs Admin Panel
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<img src="https://imgur.com/UJIbBIK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Agent Panel</h2>
 
-<img src="https://imgur.com/mvEi1Ey.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/FzYCLMx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Admin Panel</h2>
+
 </p>
 <p>
-Delete the Maintenance department by going to Admin Panel -> Check the Maintenance box -> Click the arrow next to "more" -> click "delete".
+There are 2 Panels in OsTicket, one to use as an agent communicating with end users(agent panel) and one to use as an admin to configure settings and assign tickets.
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/G6I0E5b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/THq2OUy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/Avyjdjr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/oTYHLik.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/Suq00cE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/zF1ACb2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/x1GDcLB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/rhjK5fy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-As an end-user, create the following ticket. Log back in as john and update help topic and set SLA to Sev-A
+Configure Roles (for grouping permissions) Admin Panel -> Agents -> Roles -> Supreme Admin. Make sure to check off all boxes, we want to give this role total access.
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/PGwotMF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vvz6wMn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login as jane and take over the ticket to complete the open ticket.
-</p>
-<br />
-
-<p>
-<img src="https://imgur.com/8OjeZlJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/StmKIe7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/LS9hkpK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Work the Ticket to completion as Jane Doe, Click "ticket status" and set to "resolved".
-</p>
-<br />
-
-----------------------------------------------------------------------------------------------------------------------------------------
-
-As an end user, create the following ticket
--------------------------------------------------
-<p>
-<img src="https://imgur.com/JjktQVz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Using The end user "Ken" we created we will create a ticket.
+Create a new department called "SysAdmins" by going to Admin Panel -> Agents -> Departments.
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/ThRi4rG.png/" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/CvBSVR8.png/" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/5TZL8El.png/" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/3pvVRVS.png/" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/5pOgUTE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login and Assign John to complete the ticket, assign to john set SLA plan to Sev-C and complete documentation through "post reply".
+Configure teams by going to the admin panel -> Agents -> Teams -> "Add New Team" (we will call this Online Banking).
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/mL4t0As.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/dlkV51b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After walking ken through some simple troubleshooting, we came to the conclusion that restarting the computer fixed the issue, we can post a reply and close the ticket all in one now.
-</p>
-<br />
-
-------------------------------------------------------
-
-As an end user, create the following ticket
--------------------------------------------------
-<p>
-<img src="https://imgur.com/vZkHNyb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-We will now open up a new ticket using karens end user account.
-<br />
-
-<p>
-<img src="https://imgur.com/ThRi4rG.png/" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/uzhEWVr.png/" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/v5kvyFn.png/" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Login and Assign John to the ticket, Update the SLA plan to "Sev-B", and update the priority level to "Emergency".
+We wil now allow anyone to create tickets by making sure this setting is unchecked through the Admin Panel.
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/gifQpfZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Ha5yr2L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vJFiuGw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After getting in contact with karen, we come to the conclusion that the CFO needed a new charger for his laptop, so we posted a reply stating that "Charger was broken, because of this, battery was dead and unable to turn on". We can now set the status of the ticket to "resolved"
+<h>Configure Agents by going to Admin Panel->Agents->Add New, we will now add Jane Doe and John Doe.</h>
+
+
+<h2>Give john "Support" and "Supreme Admin" Dept Role through the "Access" tab and "Level 1 Support" with "Online Banking" "Teams" tab.</h2>
+<img src="https://imgur.com/sI7Xll6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/60hyO47.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<h2>Give Jane "SysAdmins" and "Supreme Admin" Dept role through the "Access" tab and "Level 1 Support" with "Online Banking" "Teams" tab.</h2>
+<img src="https://imgur.com/Qlq9nHq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/60hyO47.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/ehNwdfJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/lu4timR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/MQCNOlu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Users by going to the Agent Panel->Users->Add New (We will be adding 2 users named Karen and Ken)
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/nRaQwFv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/LtUJJb1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/MGis4Su.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create 3 New SLAs by going to Admin Panel->Manage->SLA 
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/rCTNSf7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/3ERrX24.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/K2m2qVb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/nJMtMEY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/HLZNp1w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create 5 new Help Topics (for when users create a ticket) Admin Panel-> Manage-> Help Topics
+  
 </p>
 <br />
 
